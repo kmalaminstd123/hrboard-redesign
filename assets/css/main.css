@@ -92,8 +92,9 @@ h1 {
   font-size: 40px;
 }
 
-:root{
-  --primary-color: #9A2424; /* #A51916 */
+:root {
+  --primary-color: #9A2424;
+  /* #A51916 */
   --secondery-color: #117982;
 }
 
@@ -1347,7 +1348,7 @@ p {
     visibility: visible;
     box-shadow: none;
     padding: 0;
-	margin:0;
+    margin: 0;
   }
 
   .navbar-nav .nav-item .sub-menu::after {
@@ -1905,12 +1906,12 @@ p {
   position: relative;
 }
 
-.acrr-cert-img{
+.acrr-cert-img {
   height: 300px;
   width: auto;
 }
 
-.acrr-cert-img a img{
+.acrr-cert-img a img {
   height: 300px;
   width: auto;
 }
@@ -2023,16 +2024,16 @@ p {
   padding: 50px 0;
 }
 
-.counter-up-box{
+.counter-up-box {
   width: fit-content;
 }
 
-.counter-up-box{
+.counter-up-box {
   gap: 10px;
 }
 
-@media only screen and (max-width: 768px){
-  .counter_up_container{
+@media only screen and (max-width: 768px) {
+  .counter_up_container {
     justify-content: space-around !important;
     gap: 50px;
   }
@@ -2146,13 +2147,13 @@ p {
 	about page CSS start
 ========================================*/
 
-.pre-msg-wrap{
+.pre-msg-wrap {
   background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
   padding: 40px 20px;
 }
 
-.pres-img{
+.pres-img {
   height: 150px;
   width: 150px;
   border-radius: 50%;
@@ -2161,7 +2162,7 @@ p {
   background: #fff;
 }
 
-.pres-img img{
+.pres-img img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
@@ -2169,17 +2170,108 @@ p {
   border: 3px solid #fff;
 }
 
-.pres-intro{
+.pres-intro {
   width: fit-content;
 }
 
-.pres-infos-msg p{
+.pres-infos-msg p {
   color: #4e4444;
 }
 
 
 /*======================================
 	about page CSS end
+========================================*/
+
+/*======================================
+	BHRC Standard page CSS start
+========================================*/
+
+.portfolio-btn-wrapper {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.portfolio-btn-wrapper button {
+  padding: 10px 23px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  background: #eff2f9;
+  color: #051441;
+  border-radius: 0;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  -webkit-transition: all .3s ease-out 0s;
+  transition: all .3s ease-out 0s;
+  color: #333;
+}
+
+.portfolio-btn-wrapper button.active {
+    background: var(--secondery-color);
+    color: #fff;
+}
+
+.entrepreneurial, .leadership, .personal, .professional{
+  padding: 45px 40px !important;
+  background-color: #F9FAFF !important;
+  box-shadow: none !important;
+}
+
+.entrepreneurial:hover, .leadership:hover, .personal:hover, .professional:hover{
+  background-color: var(--secondery-color) !important;
+}
+
+/*======================================
+	BHRC Standard page CSS end
+========================================*/
+
+
+
+
+/*======================================
+	Course accrediation page CSS start
+========================================*/
+
+.accr-process{
+  background-color: #F9FAFF;
+}
+
+.all-accr-process-wrap{
+  position: relative;
+}
+
+.all-accr-process-wrap::before{
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  content: '';
+  background-color: var(--secondery-color);
+  top: 0;
+  left: -2%;
+}
+
+.all-accr-process-wrap .accr-process-box{
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.all-accr-process-wrap .accr-process-box::before{
+  position: absolute;
+  content: '';
+  --size: 20px;
+  height: var(--size);
+  width: var(--size);
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  left: -19px;
+}
+
+/*======================================
+	Course accrediation page CSS end
 ========================================*/
 
 
