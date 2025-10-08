@@ -2143,6 +2143,47 @@ p {
 
 
 /*======================================
+	about page CSS start
+========================================*/
+
+.pre-msg-wrap{
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  padding: 40px 20px;
+}
+
+.pres-img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  padding: 3px;
+  background: #fff;
+}
+
+.pres-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+}
+
+.pres-intro{
+  width: fit-content;
+}
+
+.pres-infos-msg p{
+  color: #4e4444;
+}
+
+
+/*======================================
+	about page CSS end
+========================================*/
+
+
+/*======================================
 	17. Start Footer CSS
 ========================================*/
 .footer {
