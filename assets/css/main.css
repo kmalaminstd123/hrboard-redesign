@@ -2210,17 +2210,23 @@ p {
 }
 
 .portfolio-btn-wrapper button.active {
-    background: var(--secondery-color);
-    color: #fff;
+  background: var(--secondery-color);
+  color: #fff;
 }
 
-.entrepreneurial, .leadership, .personal, .professional{
+.entrepreneurial,
+.leadership,
+.personal,
+.professional {
   padding: 45px 40px !important;
   background-color: #F9FAFF !important;
   box-shadow: none !important;
 }
 
-.entrepreneurial:hover, .leadership:hover, .personal:hover, .professional:hover{
+.entrepreneurial:hover,
+.leadership:hover,
+.personal:hover,
+.professional:hover {
   background-color: var(--secondery-color) !important;
 }
 
@@ -2235,15 +2241,15 @@ p {
 	Course accrediation page CSS start
 ========================================*/
 
-.accr-process{
+.accr-process {
   background-color: #F9FAFF;
 }
 
-.all-accr-process-wrap{
+.all-accr-process-wrap {
   position: relative;
 }
 
-.all-accr-process-wrap::before{
+.all-accr-process-wrap::before {
   position: absolute;
   height: 100%;
   width: 2px;
@@ -2253,13 +2259,13 @@ p {
   left: -2%;
 }
 
-.all-accr-process-wrap .accr-process-box{
+.all-accr-process-wrap .accr-process-box {
   margin-bottom: 20px;
   position: relative;
   z-index: 1;
 }
 
-.all-accr-process-wrap .accr-process-box::before{
+.all-accr-process-wrap .accr-process-box::before {
   position: absolute;
   content: '';
   --size: 20px;
@@ -2274,6 +2280,114 @@ p {
 
 /*======================================
 	Course accrediation page CSS end
+========================================*/
+
+/*======================================
+	Course details page CSS start
+========================================*/
+
+.details-main-desc {
+  box-shadow: 0 0 35px #eee !important;
+  ;
+}
+
+.details-main-body {
+  padding: 40px;
+  background: #fff;
+}
+
+.details_top_banner {
+  background-color: var(--secondery-color);
+  padding: 60px 80px 60px 30px;
+  clip-path: polygon(0 0, 100% 0, 77% 100%, 0% 100%);
+}
+
+.details_top_banner img {
+  height: 150px;
+}
+
+blockquote {
+  position: relative;
+  padding: 40px 40px 50px 30px;
+  color: #666;
+  font-weight: 400;
+  font-style: italic;
+  text-align: left;
+  clear: both;
+  box-shadow: 0 0 20px #eee !important;
+  border-left: 10px solid var(--secondery-color);
+  z-index: 1;
+  margin: 25px 0;
+}
+
+blockquote h4 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #333;
+}
+
+.sidebar.service-sidebar {
+  position: sticky;
+  top: 120px;
+}
+
+.sidebar.service-sidebar .service-category {
+  margin-bottom: 30px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 0 35px #eee !important;
+}
+
+.sidebar.service-sidebar .service-category>li {
+  margin-bottom: 10px;
+}
+
+.sidebar.service-sidebar .service-category>li>a {
+  display: flex;
+  background: #f7f7f7;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 35px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cet_ben_single {
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px #eee !important;
+  padding: 40px 40px 50px 30px;
+  color: #666;
+}
+
+.elg_crit .card-body h5 {
+  font-weight: 400;
+}
+
+.area_asses blockquote h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.apply-ban {
+  margin-top: 30px;
+  background: #fff;
+  box-shadow: 0 0 35px #eee !important;
+  text-align: center;
+  padding: 20px;
+}
+
+.apply-ban li a{
+  background-color: var(--primary-color);
+  padding: 20px;
+  display: block;
+  font-size: 20px;
+  color: #fff;
+}
+
+/*======================================
+	Course details page CSS end
 ========================================*/
 
 
