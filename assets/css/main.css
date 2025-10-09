@@ -2351,6 +2351,13 @@ blockquote h4 {
   padding: 16px 35px;
   font-size: 14px;
   font-weight: 500;
+  transition: all 0.3s linear;
+}
+
+.sidebar.service-sidebar .service-category>li>a:hover{
+  background-color: var(--secondery-color);
+  color: #fff;
+  transition: all 0.3s linear;
 }
 
 .cet_ben_single {
