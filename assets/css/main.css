@@ -2399,6 +2399,124 @@ blockquote h4 {
 
 
 /*======================================
+	Privacy Policy page CSS start
+========================================*/
+
+ .bhrc-pp-section {
+    background: linear-gradient(135deg, #faf9f9, #f3f3f3);
+    padding: 100px 20px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .bhrc-pp-container {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+
+  .bhrc-pp-title {
+    text-align: center;
+    color: #9A2424;
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 50px;
+    position: relative;
+  }
+
+  .bhrc-pp-title::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: #117982;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: 2px;
+  }
+
+  .bhrc-pp-card {
+    background: #fff;
+    border-radius: 25px;
+    padding: 50px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+  }
+
+  .bhrc-pp-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  }
+
+  .bhrc-pp-heading {
+    color: #9A2424;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+  }
+
+  .bhrc-pp-subheading {
+    color: #117982;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
+  }
+
+  .bhrc-pp-text {
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+
+  .bhrc-pp-list {
+    margin-left: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  .bhrc-pp-list li {
+    margin-bottom: 10px;
+  }
+
+  .bhrc-pp-divider {
+    border: none;
+    height: 1px;
+    background: rgba(0,0,0,0.08);
+    margin: 30px 0;
+  }
+
+  .bhrc-pp-link {
+    color: #117982;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .bhrc-pp-link:hover {
+    text-decoration: underline;
+    color: #9A2424;
+  }
+
+  .bhrc-pp-note {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .bhrc-pp-card {
+      padding: 30px 25px;
+    }
+    .bhrc-pp-title {
+      font-size: 1.9rem;
+    }
+  }
+
+
+/*======================================
+	Privacy Policy page CSS end
+========================================*/
+
+
+/*======================================
 	17. Start Footer CSS
 ========================================*/
 .footer {
